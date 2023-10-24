@@ -1,10 +1,10 @@
 FROM node:18-alpine
 
-WORKDIR /bookingmicroservice
+WORKDIR /transactionmicroservice
 
 COPY . .
 
-WORKDIR /bookingmicroservice/src
+WORKDIR /transactionmicroservice/src
 
 # install dependencies
 RUN yarn install --production 
